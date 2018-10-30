@@ -11,7 +11,7 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  arr.map.with_index{|ele, i|i == 1 ? ele[i],ele[i+1]=ele[i+1],ele[i] : ele}
+  arr.map.with_index{|ele, i|i == 1 ? (ele[i],ele[i+1]=ele[i+1],ele[i]) : ele}
 
 end
 
