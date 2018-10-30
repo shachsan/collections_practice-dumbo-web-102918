@@ -12,8 +12,9 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  new_arr = [arr[0]+(arr[1],arr[2] = arr[2], arr[1])]
   binding.pry
+  new_arr = [arr[0]+(arr[1],arr[2] = arr[2], arr[1])]
+
   # arr.map.with_index{|ele, i|i == 1 ? (ele[i],ele[i+1]=ele[i+1],ele[i]) : ele}
 
 end
