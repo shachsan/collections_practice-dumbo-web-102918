@@ -20,7 +20,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(names)
-  names.map {|name|name[2]='$'}
+  names.map {|name|name.chars.map.with_index{|ch, i|i==2 ? '$' : ch}.join}
 end
 
 def find_a(words)
