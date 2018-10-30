@@ -1,4 +1,4 @@
-
+require 'pry'
 def sort_array_asc(arr)
   arr.sort
 end
@@ -13,6 +13,7 @@ end
 
 def swap_elements(arr)
   swapped_eles = (arr[1],arr[2] = arr[2], arr[1])
+  binding.pry
   new_arr = [arr[0]]+swapped_eles
 
   # arr.map.with_index{|ele, i|i == 1 ? (ele[i],ele[i+1]=ele[i+1],ele[i]) : ele}
