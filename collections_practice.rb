@@ -32,5 +32,5 @@ def sum_array(arr)
 end
 
 def add_s(words)
-  words.map.with_index { |word|word+"s" if i!=1}
+  words.map.with_index { |word, i|word+"s" if i!=1}
 end
